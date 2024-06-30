@@ -1,0 +1,14 @@
+{
+  "name": "weater",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "lilit",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "electron": "^31.1.0"
+  }
+}
