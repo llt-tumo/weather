@@ -214,7 +214,7 @@ background-clip: text;
 
 .gen-data div{
     flex: 1 1 50%;
-    margin-top: 10px;
+    margin-top: 18px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -236,5 +236,52 @@ background-clip: text;
 .gen-data div p{
     font-size: 16px;
     font-weight: 500;
+    color: #292929;
+}
+
+.row2{
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    gap: 28px;
+    margin-top: 28px;
+}
+.five-days-podcast{
+    width: 409px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+}
+
+.five-days-podcast h3{
+    font-size: 28px;
+    font-weight: 700;
+    color: #292929;
+}
+
+.daily-forecast{
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.daily-forecast img{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.daily-forecast h5{
+    font-size: 22px;
+    font-weight: 700;
+    color: #292929;
+}
+
+.daily-forecast p{
+    font-size: 18px;
+    font-weight: 700;
     color: #292929;
 }
