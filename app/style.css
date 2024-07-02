@@ -115,14 +115,19 @@ button{
     gap: 28px;
 }
 
+
+.block{
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px rgb(0 0 0 / 20%);
+
+}
+
 .location-and-time{
     width: 428px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: white;
-    border-radius: 30px;
-    box-shadow: 10px 10px 5px rgb(0 0 0 / 20%);
     padding: 32px;
 
 }
@@ -141,4 +146,95 @@ button{
 .location-and-time h5{
     font-size: 15px;
     font-weight: 300;
+}
+
+.weather-info{
+    width: 780px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px;
+}
+
+.degree{
+    width: 153px;
+    height: 100%;
+}
+
+.degree h1{
+    font-size: 60px;
+    font-weight: 700;
+    background: linear-gradient(80.34deg, #292929 -2.93%, rgba(255, 255, 255, 0) 212.44%);
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.degree p{
+    font-size: 17px;
+    font-weight: 600;
+    color: #292929;
+}
+
+.degree p span{
+    font-size: 24px;
+    color: black;
+}
+
+.time-info{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 18px;
+}
+
+.icon{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icon img{
+    width: 200px;
+}
+.icon h3{
+    font-size: 28px;
+    font-weight: 700;
+    color: #292929;
+    text-align: center;
+}
+
+.gen-data{
+    width: 247px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gen-data div{
+    flex: 1 1 50%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.gen-data div img{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.gen-data div h5{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.gen-data div p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #292929;
 }
