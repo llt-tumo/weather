@@ -50,7 +50,7 @@ button{
     margin-top: 8px;
     font-weight: 800;
     font-size: 14px;
-    left: 10px;
+    text-align: center;
 }
 
 .search{
@@ -136,6 +136,7 @@ button{
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 24px;
+    padding-top: 12px;
 }
 
 .location-and-time h1{
@@ -190,14 +191,16 @@ background-clip: text;
 }
 
 .icon{
-    width: 200px;
+    width: 180px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .icon img{
-    width: 200px;
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
 }
 .icon h3{
     font-size: 28px;
@@ -247,7 +250,7 @@ background-clip: text;
     margin-top: 28px;
 }
 .five-days-podcast{
-    width: 409px;
+    width: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -266,6 +269,7 @@ background-clip: text;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 10px;
 }
 
 .daily-forecast img{
@@ -284,4 +288,60 @@ background-clip: text;
     font-size: 18px;
     font-weight: 700;
     color: #292929;
+}
+
+.hourly-forecast{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    padding: 32px;
+
+}
+
+.hourly-forecast h3{
+    font-size: 28px;
+    font-weight: 700;
+    color: #292929;
+}
+
+.hours{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 28px;
+    gap: 10px;
+}
+
+.weather-per-hour{
+    border-radius: 40px;
+    background: linear-gradient(170.72deg, #FFAF57 -12.41%, rgba(246, 250, 217, 0) 163.32%);
+    display: flex;
+    max-width: 130px;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px;
+
+}
+
+.weather-per-hour img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.weather-per-hour h5{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.weather-per-hour h6{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.night{
+    background: linear-gradient(173.7deg, #928DAC -15.92%, rgba(96, 119, 174, 0) 109.1%);
 }
