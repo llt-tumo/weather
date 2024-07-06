@@ -281,13 +281,11 @@ background-clip: text;
 .daily-forecast h5{
     font-size: 22px;
     font-weight: 700;
-    color: #292929;
 }
 
 .daily-forecast p{
     font-size: 18px;
     font-weight: 700;
-    color: #292929;
 }
 
 .hourly-forecast{
@@ -302,7 +300,6 @@ background-clip: text;
 .hourly-forecast h3{
     font-size: 28px;
     font-weight: 700;
-    color: #292929;
 }
 
 .hours{
@@ -344,4 +341,13 @@ background-clip: text;
 
 .night{
     background: linear-gradient(173.7deg, #928DAC -15.92%, rgba(96, 119, 174, 0) 109.1%);
+}
+
+.main.dark{
+    background: linear-gradient(113.19deg, #0d0e0e -1.46%, rgba(1, 2, 3, 0.54) 107.81%);
+}
+
+.main.dark .block{
+    background: black;
+    color: white;
 }

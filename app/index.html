@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <div class="main">
+    <div class="main dark">
         <div class="header">
             <div class="theme">
                 <div class="toggle-wrapper">
@@ -44,13 +44,13 @@
             </div>
             <div class="weather-info block">
                 <div class="degree">
-                    <h1>24°C</h1>
-                    <p>Feels like: <span>22°C</span></p>
+                    <h1 id="todaysWeather">24°C</h1>
+                    <p id="feelsLike">Feels like: <span>22°C</span></p>
                     <div class="time-info">
                         <img class="img-icon" src="./images/sunrise-white 1.png" alt="">
                         <div>
                             <h5>Sunrise</h5>
-                            <p>06:37 AM</p>
+                            <p id="sunriseTime">06:37 AM</p>
                         </div>
 
                     </div>
@@ -58,7 +58,7 @@
                         <img class="img-icon" src="./images/sunset-white 1.png" alt="">
                         <div>
                             <h5>Sunset</h5>
-                            <p>20:37 AM</p>
+                            <p id="sunsetTime">20:37 AM</p>
                         </div>
 
                     </div>
@@ -66,28 +66,28 @@
 
                 </div>
                 <div class="icon">
-                    <img class="weather-icon-image" src="./images/clear 1.png" alt="">
-                    <h3>Sunny</h3>
+                    <img id="mainImg" class="weather-icon-image" src="./images/clear 1.png" alt="">
+                    <h3 id="condition">Sunny</h3>
                 </div>
                 <div class="gen-data">
                     <div>
                         <img class="img-icon" src="./images/humidity 1.png" alt="">
-                        <h5>41%</h5>
+                        <h5 id="humidity">41%</h5>
                         <p>Humidity</p>
                     </div>
                     <div>
                         <img class="img-icon" src="./images/wind 1.png" alt="">
-                        <h5>2km/h</h5>
+                        <h5 id="windSpeed">2km/h</h5>
                         <p>Wind Speed</p>
                     </div>
                     <div>
                         <img class="img-icon" src="./images/pressure-white 1.png" alt="">
-                        <h5>997hPa</h5>
+                        <h5 id="pressure">997hPa</h5>
                         <p>Pressure</p>
                     </div>
                     <div>
                         <img class="img-icon" src="./images/uv-white 1.png" alt="">
-                        <h5>8</h5>
+                        <h5 id="uv">8</h5>
                         <p>UV</p>
                     </div>
                 </div>
