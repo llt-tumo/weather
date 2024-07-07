@@ -189,14 +189,26 @@ themeToggle.addEventListener('click', () => {
     mainBlock.classList.toggle('dark')
 })
 
-/*const typeToggle = document.querySelector('#cel-far-toggle')
+
+
 const cel = document.querySelector('#celsiusBtn')
 const far = document.querySelector('#farenheitBtn')
 
-typeToggle.addEventListener('click', () => {
-    cel.classList.toggle('active')
-    far.classList.toggle('active')
-})*/
+cel.addEventListener('click', () => {
+    currenttempType = 'C'
+    cel.classList.add('active')
+    far.classList.remove('active')
+    getData()
+})
+
+far.addEventListener('click', () => {
+    currenttempType = 'F'
+    far.classList.add('active')
+    cel.classList.remove('active')
+    getData()
+})
+
+
 
 const searchInput = document.querySelector('#searchInput')
 const searchButton = document.querySelector('#searchButton')
