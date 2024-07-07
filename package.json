@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "script.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-packager . weather"
   },
   "author": "lilit",
   "license": "ISC",
@@ -12,5 +13,8 @@
     "date-fns": "^3.6.0",
     "electron": "^31.1.0",
     "electron-packager": "^17.1.2"
+  },
+  "build":{
+    "appId": "com.weather.elctron"
   }
 }
