@@ -4,7 +4,7 @@
     box-sizing: border-box
 }
 
-.main{
+.main {
     background: linear-gradient(113.19deg, #B4EDFF -1.46%, rgba(30, 148, 226, 0.54) 107.81%);
     widows: 100%;
     min-height: 980px;
@@ -12,11 +12,11 @@
     font-family: "Poppins", sans-serif;
 }
 
-button{
+button {
     cursor: pointer;
 }
 
-.header{
+.header {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -24,7 +24,7 @@ button{
 }
 
 
-.toggle-wrapper{
+.toggle-wrapper {
     position: relative;
     width: 90px;
     height: 40px;
@@ -34,7 +34,7 @@ button{
     cursor: pointer;
 }
 
-.toggle-wrapper .switch{
+.toggle-wrapper .switch {
 
     position: absolute;
     width: 30px;
@@ -46,14 +46,22 @@ button{
     left: 5px;
 }
 
-.theme p{
+.theme p {
     margin-top: 8px;
     font-weight: 800;
     font-size: 14px;
     text-align: center;
 }
 
-.search{
+.toggle-wrapper .light {
+    display: inline;
+}
+
+.toggle-wrapper .dark {
+    display: none;
+}
+
+.search {
     width: 100%;
     max-width: 600px;
     height: 62px;
@@ -66,31 +74,32 @@ button{
     gap: 10px;
 }
 
-#searchInput{
+#searchInput {
     flex: 1;
     border: none;
+    outline: none;
 
 }
 
-#searchButton{
+#searchButton {
     background: none;
     border: none;
 }
 
-.cel-far-toggle{
+.cel-far-toggle {
     width: 182px;
     height: 62px;
     background: white;
     border-radius: 40px;
     display: flex;
     padding: 4px 32px;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center
 }
 
 
 
-.cel-far-toggle button{
+.cel-far-toggle button {
     background: none;
     border: none;
     width: 60px;
@@ -98,17 +107,17 @@ button{
     color: #536878;
     font-weight: 700;
     font-size: 24px;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center
 }
 
 
-.cel-far-toggle .active{
+.cel-far-toggle .active {
     color: black;
     font-size: 36px;
 }
 
-.row1{
+.row1 {
     margin-top: 30px;
     display: flex;
     width: 100%;
@@ -116,14 +125,14 @@ button{
 }
 
 
-.block{
+.block {
     background-color: white;
     border-radius: 30px;
     box-shadow: 10px 10px 5px rgb(0 0 0 / 20%);
 
 }
 
-.location-and-time{
+.location-and-time {
     width: 428px;
     display: flex;
     flex-direction: column;
@@ -132,24 +141,24 @@ button{
 
 }
 
-.location-and-time h3{
+.location-and-time h3 {
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 24px;
     padding-top: 12px;
 }
 
-.location-and-time h1{
+.location-and-time h1 {
     font-size: 70px;
     font-weight: 700;
 }
 
-.location-and-time h5{
+.location-and-time h5 {
     font-size: 15px;
     font-weight: 300;
 }
 
-.weather-info{
+.weather-info {
     width: 780px;
     display: flex;
     flex: 1;
@@ -158,98 +167,96 @@ button{
     padding: 32px;
 }
 
-.degree{
+.degree {
     width: 153px;
     height: 100%;
 }
 
-.degree h1{
+.degree h1 {
     font-size: 60px;
     font-weight: 700;
     background: linear-gradient(80.34deg, #292929 -2.93%, rgba(255, 255, 255, 0) 212.44%);
--webkit-background-clip: text;
-background-clip: text;
--webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-.degree p{
+.degree p {
     font-size: 17px;
     font-weight: 600;
-    color: #292929;
 }
 
-.degree p span{
+.degree p span {
     font-size: 24px;
-    color: black;
 }
 
-.time-info{
+.time-info {
     display: flex;
     align-items: center;
     gap: 8px;
     margin-top: 18px;
 }
 
-.icon{
+.icon {
     width: 180px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.icon img{
+.icon img {
     width: 180px;
     height: 180px;
     object-fit: contain;
 }
-.icon h3{
+
+.icon h3 {
     font-size: 28px;
     font-weight: 700;
-    color: #292929;
     text-align: center;
 }
 
-.gen-data{
+.gen-data {
     width: 247px;
     display: flex;
     flex-wrap: wrap;
 }
 
-.gen-data div{
+.gen-data div {
     flex: 1 1 50%;
     margin-top: 18px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
 
-.gen-data div img{
+.gen-data div img {
     width: 60px;
     height: 60px;
     object-fit: contain;
 }
 
-.gen-data div h5{
+.gen-data div h5 {
     font-size: 20px;
     font-weight: 600;
 
 }
 
-.gen-data div p{
+.gen-data div p {
     font-size: 16px;
     font-weight: 500;
-    color: #292929;
 }
 
-.row2{
+.row2 {
     margin-top: 30px;
     display: flex;
     width: 100%;
     gap: 28px;
     margin-top: 28px;
 }
-.five-days-podcast{
+
+.five-days-podcast {
     width: 400px;
     display: flex;
     flex-direction: column;
@@ -257,13 +264,12 @@ background-clip: text;
     padding: 32px;
 }
 
-.five-days-podcast h3{
+.five-days-podcast h3 {
     font-size: 28px;
     font-weight: 700;
-    color: #292929;
 }
 
-.daily-forecast{
+.daily-forecast {
     width: 100%;
     height: 72px;
     display: flex;
@@ -272,23 +278,23 @@ background-clip: text;
     gap: 10px;
 }
 
-.daily-forecast img{
+.daily-forecast img {
     width: 60px;
     height: 60px;
     object-fit: contain;
 }
 
-.daily-forecast h5{
+.daily-forecast h5 {
     font-size: 22px;
     font-weight: 700;
 }
 
-.daily-forecast p{
+.daily-forecast p {
     font-size: 18px;
     font-weight: 700;
 }
 
-.hourly-forecast{
+.hourly-forecast {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -297,12 +303,12 @@ background-clip: text;
 
 }
 
-.hourly-forecast h3{
+.hourly-forecast h3 {
     font-size: 28px;
     font-weight: 700;
 }
 
-.hours{
+.hours {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -311,7 +317,7 @@ background-clip: text;
     gap: 10px;
 }
 
-.weather-per-hour{
+.weather-per-hour {
     border-radius: 40px;
     background: linear-gradient(170.72deg, #FFAF57 -12.41%, rgba(246, 250, 217, 0) 163.32%);
     display: flex;
@@ -323,31 +329,97 @@ background-clip: text;
 
 }
 
-.weather-per-hour img{
+.weather-per-hour img {
     width: 80px;
     height: 80px;
     object-fit: contain;
 }
 
-.weather-per-hour h5{
+.weather-per-hour h5 {
     font-size: 24px;
     font-weight: 700;
 }
 
-.weather-per-hour h6{
+.weather-per-hour h6 {
     font-size: 20px;
     font-weight: 700;
 }
 
-.night{
+.night {
     background: linear-gradient(173.7deg, #928DAC -15.92%, rgba(96, 119, 174, 0) 109.1%);
 }
 
-.main.dark{
+.main.dark {
     background: linear-gradient(113.19deg, #0d0e0e -1.46%, rgba(1, 2, 3, 0.54) 107.81%);
+    color: white;
 }
 
-.main.dark .block{
+.main.dark .block {
     background: black;
+    color: white;
+}
+
+.main.dark .search {
+    background: #292929;
+    border: none;
+
+}
+
+.main.dark .searchInput input {
+    background: #444444;
+    color: #fff;
+}
+
+.main.dark .toggle-wrapper {
+    background-color: #D9D9D9;
+}
+
+.main.dark .toggle-wrapper .switch {
+
+    background: #000;
+    left: unset;
+    right: 5px;
+}
+
+.main.dark .toggle-wrapper .light {
+    display: none;
+}
+
+.main.dark .toggle-wrapper .dark {
+    display: inline;
+}
+
+.main.dark .degree h1 {
+    font-size: 60px;
+    font-weight: 700;
+    background: linear-gradient(80.34deg, #dadada -2.93%, rgba(191, 188, 188, 0) 212.44%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main.dark .img-icon {
+    filter: brightness(0) invert(1);
+}
+
+.main.dark .weather-per-hour {
+    background: #373636;
+}
+
+.main.dark .cel-far-toggle {
+    background: rgb(0, 0, 0);
+}
+
+.main.dark .cel-far-toggle button {
+    color: #90acc1;
+
+}
+
+.main.dark .cel-far-toggle .active {
+    color: white;
+}
+
+.main.dark .search input{
+    background-color: #292929;
     color: white;
 }
